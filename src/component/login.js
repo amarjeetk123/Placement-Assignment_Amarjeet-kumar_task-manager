@@ -33,8 +33,8 @@ const Login = () => {
     <div className='main'>
     <div>
         <center className='heading'> Login</center>
-        <h1 className='name-box'>Email :-  <input type='email' placeholder='Enter your Email...' onChange={(e) => setEmail(e.target.value)} /> </h1>
-        <h1 className='name-box'>Password :-  <input type='password' placeholder='Enter Password' onChange={(e) => setPassword(e.target.value)} /> </h1>
+        <h1 className='name-box'>Email :-  <input className='inp' type='email' placeholder='Enter your Email...' onChange={(e) => setEmail(e.target.value)} /> </h1>
+        <h1 className='name-box'>Password :-  <input className='inp' type='password' placeholder='Enter Password' onChange={(e) => setPassword(e.target.value)} /> </h1>
         <button onClick={handleClick} >Submit</button>
     </div>
 

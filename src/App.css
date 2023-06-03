@@ -72,3 +72,9 @@ input.task-done{
   min-height: 70px;
   border-radius: 8px;
 }
+.inp{
+  height: 30px;
+  width: 260px;
+  font-size: 20px;
+  padding-left: 8px;
+}
